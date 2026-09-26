@@ -25,6 +25,13 @@ return 0.0;
 }
 return (presentDays * 100.0) / totalDays;
 }
+cout << "=== Attendance Report ===" << endl;
+s1.display();
+s2.display();
+}cout << "=== Attendance Report ===" << endl;
+s1.display();
+s2.display();
+}
 
 void display() const {
 cout << "Roll: " << rollNo
